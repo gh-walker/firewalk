@@ -15,7 +15,7 @@ concurrency:
 
 jobs:
   build:
-    name: Build
+    # name: Build
     runs-on: self-hosted
     steps:
       - name: Set up Go 1.17
