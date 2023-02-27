@@ -57,7 +57,7 @@ jobs:
           echo
           kubectl version
 
-      - name: Shutdown VM
-        if: always()
-        run: |
-          sudo reboot || true
+#       - name: Shutdown VM
+#         if: always()
+#         run: |
+#           sudo reboot || true
