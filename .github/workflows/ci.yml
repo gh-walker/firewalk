@@ -60,4 +60,4 @@ jobs:
       - name: Shutdown VM
         if: always()
         run: |
-          sudo reboot
+          sudo reboot || true
