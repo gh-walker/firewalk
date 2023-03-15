@@ -19,7 +19,7 @@ concurrency:
 jobs:
   build:
     # name: Build
-    runs-on: self-hosted
+    runs-on: firecracker
     steps:
       - name: Set up Go 1.17
         uses: actions/setup-go@v1
